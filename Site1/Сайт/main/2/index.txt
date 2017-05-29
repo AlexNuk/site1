@@ -1,0 +1,9 @@
+<div class="blockmenu">
+                <ul>
+                    <li><a href="#" class="active">Главная</a></li>
+                    <li><a href="theories.html">Классификация</a></li>
+                    <li><a href="periods.html">Технологии</a></li>
+                    <li><a href="Antro.html">Цель разработки</a></li>
+                    <li><a href="myself.html">О себе</a></li>
+                </ul>
+            </div>

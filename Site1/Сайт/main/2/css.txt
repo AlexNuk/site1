@@ -1,0 +1,29 @@
+.blockmenu {
+    margin: 0;
+    padding: 0;
+    float: left;
+    font: bold 13px Arial;
+    width: 100%;
+    background: black url(../images/blockdefault.gif) center repeat-x;
+}
+
+    .blockmenu li {
+        display: inline;
+    }
+
+        .blockmenu li a {
+            float: left;
+            color: white;
+            padding: 9px 20px;
+            text-decoration: none;
+            border-right: 1px solid white;
+        }
+
+            .blockmenu li a:visited {
+                color: white;
+            }
+
+            .blockmenu li a:hover, .blockmenu li .active {
+                color: #fff;
+                background: transparent url(../images/blockactive.gif) center center repeat-x;
+            }

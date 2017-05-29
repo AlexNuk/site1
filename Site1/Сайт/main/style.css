@@ -1,0 +1,84 @@
+h1{font-weight: 400; text-align: center;}
+			
+a, a:visited 	{color: white;text-decoration: none; }	
+
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	background: url(images/background.jpg) no-repeat;
+}
+
+.main{
+	min-width: 800px;
+	width: 80%;
+    margin: 20px auto;
+}
+
+.head{
+	padding-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+	.head h1{
+		color: white;
+		margin: 0px;
+	}
+
+	.blockmenu{
+		display:inline-block;
+	}
+	
+	.blockmenu ul{
+		margin: 20px 0 0 10px;
+		padding: 0px;
+	}
+	
+    .blockmenu li {
+        display: inline-block;
+		font-size: 14px;
+    }
+
+        .blockmenu li a {
+            float: left;
+            padding: 9px 20px;
+            text-decoration: none;
+            border-right: 1px solid white;
+			transition: all 0.3s ease;
+        }
+
+            .blockmenu a:hover {
+                color: darkgrey;
+                background: transparent url(../images/blockactive.gif) center center repeat-x;
+            }
+			
+			.blockmenu li .active{
+				color: red;
+			}
+
+	.content{
+		background:	#ffffff; 
+		color: #000000;
+		background-color: rgba(255,255,255,0.5);
+		border: 1px solid #999;
+		padding: 10px;
+		min-height:420px;
+	}
+	
+	.sign {
+		float:left;
+		border: 1px solid #333; /* Параметры рамки */
+		padding: 7px; /* Поля внутри блока */
+		margin: 10px 0 5px 5px; /* Отступы вокруг */
+		background: #f0f0f0; /* Цвет фона */ 
+   }
+   .sign figcaption {
+		margin: 0 auto 5px; /* Отступы вокруг абзаца */
+		text-align:center;
+   }
+	
+.footer{
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	text-shadow: 1px 1px #000;
+}
+
